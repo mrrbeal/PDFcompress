@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request
+from pdf_compress import compress_pdf
+
 app = Flask(__name__)
 
 @app.route('/')
